@@ -39,6 +39,47 @@ body {
 .nav .title {
   font-size: 20px;
 }
-.nav .title:hover {
-  text-decoration: #cc4f51 underline;
+
+.music-info{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 25vw;
+  max-width: 350px;
+  min-width: 150px;
+}
+.music-img{
+  padding: 40;
+}
+.music-img img{
+  width: 100%;
+  height: auto;
+  border-radius: 50% ;
+}
+.music-info .name h2{
+  font-weight: bold;
+}
+.music-info .name h5{
+  font-weight: lighter;
+}
+.music-info .name h5:hover{
+  color: #cc4f51;
+  cursor: pointer;
+}
+.time{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.progress-bar{
+  background-color: #e6e6e6;
+  border-radius: 2px;
+  width: 100%;
+  height: 3px;
+}
+.progress-bar-complete{
+  background-color: #cc4f51 !important;
+  width: 43%;
+  height: 3px;
 }
