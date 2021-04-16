@@ -1,9 +1,6 @@
 @font-face {
-  font-family: Vazir;
-  src: url("font/Vazir.eot");
-  src: url("font/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("font/Vazir.woff") format("woff"),
-    url("font/Vazir.ttf") format("truetype");
+  font-family: JosefinSans;
+  src: url("font/JosefinSans-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 /* bgColor  #0e0d0d
@@ -13,9 +10,35 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Vazir";
-  direction: rtl;
+  font-family: "JosefinSans";
+  /* direction: rtl; */
   background-color: #0e0d0d;
   color: #e6e6e6;
   margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav .menu {
+  font-size: 30px;
+}
+.nav .menu:hover {
+  color: #cc4f51;
+  cursor: pointer;
+}
+.nav .back {
+  font-size: 30px;
+}
+.nav .back:hover {
+  color: #cc4f51;
+  cursor: pointer;
+}
+.nav .title {
+  font-size: 20px;
+}
+.nav .title:hover {
+  text-decoration: #cc4f51 underline;
 }
