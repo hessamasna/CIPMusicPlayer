@@ -30,14 +30,14 @@ body {
   cursor: pointer;
 }
 .nav .back {
-  font-size: 30px;
+  font-size: 35px;
 }
 .nav .back:hover {
   color: #cc4f51;
   cursor: pointer;
 }
 .nav .title {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .music-info{
@@ -79,7 +79,63 @@ body {
   height: 3px;
 }
 .progress-bar-complete{
+  animation: load 295s normal forwards;
   background-color: #cc4f51 !important;
   width: 43%;
   height: 3px;
+}
+
+.progress-value {
+
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.controls{
+  display: flex;
+  /* padding: 10px; */
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.controls{
+  font-weight: bold;
+  font-size: 30px;
+}
+.controls{
+  font-weight: bold;
+  font-size: 30px;
+}
+.controls :hover{
+  color: #cc4f51;
+  cursor: pointer;
+}
+.play-or-puase{
+  transform:rotate(90deg);
+}
+.footer{
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  margin: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.year{
+  padding: 0 10px;
+}
+.name-copywritter{
+  display: flex;
+  align-items: center;
+}
+.name-copywritter img {
+  width: 40px;
+  padding: 0 5px;
 }
