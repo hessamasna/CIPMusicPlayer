@@ -3,4 +3,4 @@
 
 ## Mark Down is Under Construction
 
-Visit : [hessamasna.github.io/musicPlayerTraining/](https://hessamasna.github.io/musicPlayerTraining/)
+Visit : [hessamasna.github.io/CIPMusicPlayer/](https://hessamasna.github.io/CIPMusicPlayer/)
